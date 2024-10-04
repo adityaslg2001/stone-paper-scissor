@@ -1,0 +1,27 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stone Paper Scissor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <center><h1>STONE PAPER SCISSOR</h1></center>
+    <div class="parent">
+        <div id="down">
+        <div id="entity-encloser">
+            <div id="cols" onclick="stone()">STONE<img src="images/rock-emoji.png" alt="" class="side-on"></div>
+            <div id="cols" onclick="paper()">PAPER<img src="images/paper-emoji.png" alt="" class="side-on"></div>
+            <div id="cols" onclick="scissor()">SCISSOR<img src="images/scissors-emoji.png" alt="" class="side-on"></div>
+        </div>
+        <div class="scoreDisplay">
+            <p class="win-lose"></p>
+            <p class="choose"></p>
+            <p class="scores"></p>
+        </div>
+        <div id="reset-btn" onclick="reset()">RESET</div>
+    </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
